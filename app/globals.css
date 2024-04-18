@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+/* Navbar CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-gold{
+  background: none; /* Remove any background color */
+    background-clip: unset; /* Ensure background clip is unset */
+    color: transparent; /* Make text transparent */
+    background: linear-gradient(to bottom, #7B571E, #BDA367);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
